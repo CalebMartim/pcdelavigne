@@ -1,0 +1,106 @@
+:root {
+  --black: rgb(29, 29, 31);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #151320;
+  color: white;
+  font-weight: bold;
+}
+
+.centro {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 0.5em;
+}
+
+.preços {
+  width: 10em;
+  padding: 0 1.5em 1em 1.5em;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.preços::before {
+  content: "";
+  height: 215%;
+  width: 250%;
+  position: absolute;
+  background: conic-gradient(
+    #fd004c,
+    #fe9000,
+    #fff020,
+    #3edf4b,
+    #3363ff,
+    #b102b7,
+    #fd004c
+  );
+  left: -55%;
+  top: -60%;
+  z-index: -1;
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+.preços::after {
+  content: "";
+  position: absolute;
+  background: #151320;
+  height: 97%;
+  width: 95%;
+  top: 1.5%;
+  left: 2.5%;
+  right: 2.5%;
+  border-radius: 4px;
+  z-index: -1;
+}
+td {
+  padding: 0.2em;
+}
+
+th {
+  padding: 0.75em;
+  border-bottom: solid white 2px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#total {
+  padding: 0.75em;
+  border: solid white 2px;
+  border-radius: 15px;
+}
+
+.placa {
+  color: #fd004c;
+  position: relative;
+}
+.placa:nth-child(1):hover {
+  color: #fd004ca4;
+}
