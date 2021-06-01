@@ -97,10 +97,10 @@ a:hover {
   border-radius: 15px;
 }
 
-.placa {
+.caro {
   color: #fd004c;
   position: relative;
 }
-.placa:nth-child(1):hover {
+.caro:nth-child(1):hover {
   color: #fd004ca4;
 }
