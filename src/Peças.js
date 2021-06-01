@@ -69,7 +69,7 @@ export const Peças = [
     target: "_blank",
     rel: "noreferrer",
     nome: "Fonte",
-    preço: 449,00,
+    preço: 449.0,
   },
   {
     id: 9,
