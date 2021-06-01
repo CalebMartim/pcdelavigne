@@ -5,7 +5,7 @@ export const Peças = [
     target: "_blank",
     rel: "noreferrer",
     nome: "Placa mãe",
-    preço: 515.98,
+    preço: 497.75,
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ export const Peças = [
     target: "_blank",
     rel: "noreferrer",
     nome: "Processador",
-    preço: 698.58,
+    preço: 673.9,
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const Peças = [
     target: "_blank",
     rel: "noreferrer",
     nome: "Memória",
-    preço: 469.54,
+    preço: 452.96,
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const Peças = [
     target: "_blank",
     rel: "noreferrer",
     nome: "Cooler",
-    preço: 164.76,
+    preço: 158.93,
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const Peças = [
     target: "_blank",
     rel: "noreferrer",
     nome: "Armazenamento",
-    preço: 391.91,
+    preço: 378.07,
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ export const Peças = [
     target: "_blank",
     rel: "noreferrer",
     nome: "Dissipador",
-    preço: 30.75,
+    preço: 29.66,
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ export const Peças = [
     target: "_blank",
     rel: "noreferrer",
     nome: "Cooler Fan",
-    preço: 155.49,
+    preço: 150.0,
   },
   {
     id: 8,
