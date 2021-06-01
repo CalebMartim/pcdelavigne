@@ -68,6 +68,7 @@ export const Peças = [
     href: "https://www.pichau.com.br/fonte-corsair-cx-series-cx650-80-plus-bronze-650w-pfc-ativo-cp-9020122-ww",
     target: "_blank",
     rel: "noreferrer",
+    classe: "caro",
     nome: "Fonte",
     preço: 449.0,
   },
