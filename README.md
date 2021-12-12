@@ -8,9 +8,9 @@ Para testar o código você pode baixar o repositório
 
 Usando Git Bash no Windows ou o terminal no Mac ou Linux, digite
 
-`git clone https://github.com/CalebMartim/imovelpedro.git`
+`git clone https://github.com/CalebMartim/pcdelavigne.git`
 
-`cd imovelpedro`
+`cd pcdelavigne`
 
 `npm start`
 
